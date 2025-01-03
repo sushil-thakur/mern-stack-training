@@ -34,11 +34,11 @@
 //update/ edit
 //delete/Remove
 
-let laptopDetails = {
-    brand: "Dell",
-    model: "XPS 13",
+// let laptopDetails = {
+//     brand: "Dell",
+//     model: "XPS 13",
   
-};
+// };
 // console.log(laptopDetails)
 
 //create /insert add color of laptop
@@ -52,18 +52,41 @@ let laptopDetails = {
 // console.log(laptopDetails["model"]);
 
 //create /insert add color of laptop
-laptopDetails.color = "black";
-laptopDetails["ram"] = "16GB";
+// laptopDetails.color = "black";
+// laptopDetails["ram"] = "16GB";
 
-console.log(laptopDetails)
+// console.log(laptopDetails)
 
 
-//delete
-delete laptopDetails.model;
-console.log(laptopDetails)
+// //delete
+// delete laptopDetails.model;
+// console.log(laptopDetails)
 
-//edit
-laptopDetails.brand = "HP";
-console.log(laptopDetails)
+// //edit
+// laptopDetails.brand = "HP";
+// console.log(laptopDetails)
 
 //? upsert update or insert
+
+//2create an object named my housedetails with the following properties
+// number of rooms
+//number of members
+//col
+
+
+let housedetails ={
+    number_of_rooms: 5,
+    number_of_members: 4,
+    color: "white",
+    built_year: 2020,
+    storey: 2,
+};
+delete housedetails.number_of_members;
+console.log(housedetails);
+
+housedetails .number_of_rooms = 6;
+console.log(housedetails);
+
+housedetails.estimated_price_of_house = 1000000;
+console.log(housedetails);
+
