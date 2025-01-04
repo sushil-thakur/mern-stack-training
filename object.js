@@ -90,3 +90,9 @@ console.log(housedetails);
 housedetails.estimated_price_of_house = 1000000;
 console.log(housedetails);
 
+console.log("i have a house with" + housedetails.number_of_rooms + "rooms" 
+    + "and the color of the house is " + housedetails.color + " and the house was built in" 
+    + housedetails.built_year + "and the house has" + housedetails.storey +
+     "storey" + "and the estimated price of the house is" + housedetails.estimated_price_of_house);
+
+
