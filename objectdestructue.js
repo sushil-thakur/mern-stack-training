@@ -19,17 +19,19 @@
     // console.log(user2firstname);
 
     
-    let studentDetails={
-        firstname:"sujan",
-        lastname:"shrestha",
-        address:{
-            permanent:"kathmandu",
-            temporary:"bhaktapur",
-        },
-    };
-    console.log(studentDetails.firstname);
-    console.log(studentDetails.address.permanent);
-delete studentDetails.address.permanent;
-console.log(studentDetails)
+//     let studentDetails={
+//         firstname:"sujan",
+//         lastname:"shrestha",
+//         address:{
+//             permanent:"kathmandu",
+//             temporary:"bhaktapur",
+//         },
+//     };
+//     console.log(studentDetails.firstname);
+//     console.log(studentDetails.address.permanent);
+// delete studentDetails.address.permanent;
+// console.log(studentDetails)
+
+
 
 

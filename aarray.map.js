@@ -126,10 +126,10 @@ let isGraduated =[true,false,false,true];
     // console.log(newArray);
 
     //*get all student who are graduated
-    const newArray = student.filter((item,array,index)=>{
-        if(item.isGraduated==true){
-            return item;
-        }
+    // const newArray = student.filter((item,array,index)=>{
+    //     if(item.isGraduated==true){
+    //         return item;
+    //     }
 
-    });
-    console.log(newArray);
+    // });
+    // console.log(newArray);
